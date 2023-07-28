@@ -1,4 +1,3 @@
-Sure! Here's the README file with the emails included:
 
 # Automatidata Project - New York City Taxi TLC Exploratory Data Analysis (EDA) and Data Visualization
 
