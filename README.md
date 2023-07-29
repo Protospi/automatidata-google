@@ -258,3 +258,51 @@ Thank you for your continued support and cooperation.
 [Email Address]
 
 *Note: This executive summary is designed to provide a concise overview of the key results and proposed solutions. For more detailed analysis and visualizations, please refer to the attached reports.*
+
+## Summary of Initial Data Exploration
+
+### Head of the Data
+
+The dataset contains 408,582 data points and has 18 columns. Below is a preview of the first few rows:
+
+| Unnamed: 0 | VendorID | tpep_pickup_datetime | tpep_dropoff_datetime | passenger_count | trip_distance | RatecodeID | store_and_fwd_flag | PULocationID | DOLocationID | payment_type | fare_amount | extra | mta_tax | tip_amount | tolls_amount | improvement_surcharge | total_amount |
+|------------|----------|----------------------|-----------------------|-----------------|---------------|------------|--------------------|--------------|--------------|--------------|-------------|-------|---------|------------|--------------|-----------------------|--------------|
+| 24870114   | 2        | 03/25/2017 8:55:43 AM | 03/25/2017 9:09:47 AM | 6               | 3.34          | 1          | N                  | 100          | 231          | 1            | 13.0        | 0.0   | 0.5     | 2.76       | 0.0          | 0.3                   | 16.56        |
+| 35634249   | 1        | 04/11/2017 2:53:28 PM | 04/11/2017 3:19:58 PM | 1               | 1.80          | 1          | N                  | 186          | 43           | 1            | 16.0        | 0.0   | 0.5     | 4.00       | 0.0          | 0.3                   | 20.80        |
+| 106203690  | 1        | 12/15/2017 7:26:56 AM | 12/15/2017 7:34:08 AM | 1               | 1.00          | 1          | N                  | 262          | 236          | 1            | 6.5         | 0.0   | 0.5     | 1.45       | 0.0          | 0.3                   | 8.75         |
+| 38942136   | 2        | 05/07/2017 1:17:59 PM | 05/07/2017 1:48:14 PM | 1               | 3.70          | 1          | N                  | 188          | 97           | 1            | 20.5        | 0.0   | 0.5     | 6.39       | 0.0          | 0.3                   | 27.69        |
+| 30841670   | 2        | 04/15/2017 11:32:20 PM | 04/15/2017 11:49:03 PM | 1               | 4.37          | 1          | N                  | 4            | 112          | 2            | 16.5        | 0.5   | 0.5     | 0.00       | 0.0          | 0.3                   | 17.80        |
+
+### Data Points and Shape
+
+- Number of Data Points: 40,8582
+- Data Shape: (22699, 18)
+
+### Describe Function
+
+The describe function provides a summary of the numerical columns in the dataset:
+
+|            | Unnamed: 0 | VendorID | passenger_count | trip_distance | RatecodeID | PULocationID | DOLocationID | payment_type | fare_amount | extra | mta_tax | tip_amount | tolls_amount | improvement_surcharge | total_amount |
+|------------|------------|----------|-----------------|---------------|------------|--------------|--------------|--------------|-------------|-------|---------|------------|--------------|-----------------------|--------------|
+| count      | 22699.000  | 22699.000| 22699.000       | 22699.000     | 22699.000  | 22699.000    | 22699.000    | 22699.000    | 22699.000   | 22699.000 | 22699.000 | 22699.000  | 22699.000    | 22699.000             | 22699.000    |
+| mean       | 5675849.000| 1.556    | 1.642           | 2.913         | 1.043      | 162.412      | 161.528      | 1.337        | 13.027      | 0.333   | 0.497   | 1.836      | 0.313        | 0.300                 | 16.311       |
+| std        | 3274493.000| 0.497    | 1.285           | 3.653         | 0.708      | 66.633       | 70.140       | 0.496        | 13.244      | 0.463   | 0.039   | 2.801      | 1.399        | 0.016                 | 16.097       |
+| min        | 12127.000  | 1.000    | 0.000           | 0.000         | 1.000      | 1.000        | 1.000        | 1.000        | -120.000    | -1.000  | -0.500  | 0.000      | 0.000        | -0.300                | -120.300     |
+| 25%        | 28520560.000| 1.000    | 1.000           | 0.990         | 1.000      | 114.000      | 112.000      | 1.000        | 6.500       | 0.000   | 0.500   | 0.000      | 0.000        | 0.300                 | 8.750        |
+| 50%        | 56731503.000| 2.000    | 1.000           | 1.610         | 1.000      | 162.000      | 162.000      | 1.000        | 9.500       | 0.000   | 0.500   | 1.350      | 0.000        | 0.300                 | 11.800       |
+| 75%        | 85374518.000| 2.000    | 2.000           | 3.060         | 1.000      | 233.000      | 233.000      | 2.000        | 14.500      | 0.500   | 0.500   | 2.450      | 0.000        | 0.300                 | 17.800       |
+
+
+| max        | 113486314.000| 2.000    | 6.000           | 33.960        | 99.000     | 265.000      | 265.000      | 4.000        | 999.990     | 4.500   | 0.500   | 200.000    | 19.100       | 0.300                 | 1200.290     |
+
+### Dataframe Info
+
+The dataframe consists of 18 columns and 22,699 rows. The data types of the columns are as follows:
+
+- Integer: Unnamed: 0, VendorID, passenger_count, RatecodeID, PULocationID, DOLocationID, payment_type
+- Float: trip_distance, fare_amount, extra, mta_tax, tip_amount, tolls_amount, improvement_surcharge, total_amount
+- Object: tpep_pickup_datetime, tpep_dropoff_datetime, store_and_fwd_flag
+
+Please note that the "Unnamed: 0" column seems to be an unnecessary index column, and the "tpep_pickup_datetime" and "tpep_dropoff_datetime" columns should be converted to datetime objects for time-related analysis.
+
+For a more detailed analysis and further insights, refer to the Jupyter Notebook containing the complete exploratory data analysis (EDA) and data visualization.
