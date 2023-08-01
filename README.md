@@ -306,3 +306,11 @@ The dataframe consists of 18 columns and 22,699 rows. The data types of the colu
 Please note that the "Unnamed: 0" column seems to be an unnecessary index column, and the "tpep_pickup_datetime" and "tpep_dropoff_datetime" columns should be converted to datetime objects for time-related analysis.
 
 For a more detailed analysis and further insights, refer to the Jupyter Notebook containing the complete exploratory data analysis (EDA) and data visualization.
+
+### Tableau Public
+
+Link: https://public.tableau.com/app/profile/pedro.loes/viz/TLCTaxiData/DistancexAmount
+
+### Executive sumary
+
+Link: https://docs.google.com/presentation/d/1eZXLSuGKj0HByk-KT5sLlWDJeO6tITurX0ctaTG53RU/edit?usp=sharing
