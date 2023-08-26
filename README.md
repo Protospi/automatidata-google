@@ -8,15 +8,11 @@
 
 *Context: Fictional Data Scientist at Automatidata, Google Course Project*
 
-I'm currently immersed in a fascinating project as a fictional Data Scientist at Automatidata, working on the preliminary phase of an exploratory data analysis (EDA) and data visualization initiative. Let's delve into the key aspects:
-
 **Project Background:**
 
 In collaboration with the New York City Taxi and Limousine Commission (TLC), my role is to embark on exploratory data analysis (EDA) and craft data visualizations utilizing Python and Tableau. The ultimate goal is to glean profound insights into the intricate patterns of taxi ridership within the dynamic landscape of New York City.
 
 **Essential Steps and Deliverables:**
-
-1. **Reviewing the Project Proposal:** I've meticulously reviewed the project proposal to deeply grasp its contours and aims.
 
 2. **Inspecting and Organizing the TLC Dataset:** Armed with Python, I'm meticulously inspecting and structuring the TLC dataset, leaving no stone unturned to ensure impeccable cleanliness and impeccable structure.
 
@@ -116,3 +112,128 @@ Link: https://public.tableau.com/app/profile/pedro.loes/viz/TLCTaxiData/Distance
 ### Executive sumary
 
 Link: https://docs.google.com/presentation/d/1eZXLSuGKj0HByk-KT5sLlWDJeO6tITurX0ctaTG53RU/edit?usp=sharing
+
+# Jupyter Notebook Hypothesis Test
+
+In this section of the larger project, we delve into a focused exploration using a Jupyter Notebook to conduct a hypothesis test. The main objective of this endeavor is to analyze the relationship between payment methods and fare amounts in the context of taxi services. The project follows a structured approach, encompassing data preparation, hypothesis testing, and insightful communication of findings.
+
+## Project Summary
+The overarching goal of the entire project is to showcase expertise in crafting and executing A/B tests to generate insights that can enhance revenue for taxi cab drivers. The project is structured within the framework of a Jupyter Notebook, providing an interactive and informative platform for analysis.
+
+### A Glimpse at the Previous Components
+In preceding segments, we established the foundation for this endeavor:
+
+1. **Project Goal:** The project centers around developing an app for the New York City Taxi and Limousine Commission (TLC) to enable riders to estimate taxi fares beforehand. This entails analyzing the relationship between fare amounts and payment methods.
+
+2. **Background:** The TLC has a history of overseeing and regulating various transportation services in New York City, adding a real-world context to the analysis.
+
+3. **Scenario:** We completed exploratory data analysis (EDA) to familiarize ourselves with the dataset, setting the stage for the subsequent hypothesis test.
+
+4. **Tasks Completed:** Exploratory data analysis was performed, and we agreed to proceed with hypothesis testing. This involves descriptive statistics computation and a hypothesis test using the TLC dataset.
+
+With this groundwork laid, we now delve into the heart of the project: employing a Jupyter Notebook to conduct hypothesis testing and extract meaningful insights.
+
+## Part 1: Imports and Data Loading
+We start by identifying and importing the necessary data packages and libraries essential for hypothesis testing. Additionally, we load the dataset, which forms the basis of our analysis.
+
+## Part 2: Conduct EDA and Hypothesis Testing
+Here, we leverage the power of descriptive statistics to gain deeper insights into the dataset. We elaborate on how these statistics aid in comprehending the data. Furthermore, we detail the formulation of our null and alternative hypotheses—critical aspects of hypothesis testing. The notebook will feature the execution of the hypothesis test itself, revealing the statistical results.
+
+## Part 3: Communicate Insights with Stakeholders
+The narrative continues by discussing the key business insights that emerged from our A/B test. We highlight any significant patterns or differences found in fare amounts based on payment types. Drawing from these insights, we put forth actionable business recommendations, offering strategies to optimize revenue generation for taxi cab drivers.
+
+Incorporating this Jupyter Notebook into the larger project enriches our analysis by providing a dynamic and interactive platform for both exploring the data and sharing the outcomes. This approach aligns seamlessly with the project's objective of utilizing hypothesis testing to enhance revenue strategies within the realm of taxi services.
+
+## Part 1: Imports and Data Loading
+
+### Plan Stage
+
+In the planning phase of our hypothesis test, we set the foundation for the analysis by defining our research question and formulating the corresponding null and alternative hypotheses.
+
+### Research Question
+
+Our research question is: **Does the choice of payment method influence the fare amount for taxi rides?**
+
+### Hypotheses Formulation
+
+In hypothesis testing, we set up two hypotheses: the null hypothesis (H0) and the alternative hypothesis (H1). These hypotheses represent competing claims about our research question.
+
+**Null Hypothesis (H0):** The choice of payment method does not have a significant impact on the fare amount for taxi rides.
+
+**Alternative Hypothesis (H1):** The choice of payment method does have a significant impact on the fare amount for taxi rides.
+
+By formulating these hypotheses at the outset, we establish a clear direction for our analysis. The null hypothesis represents the absence of an effect, while the alternative hypothesis suggests the presence of an effect.
+
+As we proceed with the analysis, we will gather evidence from the data to decide whether we have enough evidence to reject the null hypothesis in favor of the alternative hypothesis.
+
+With our research question defined and our hypotheses formulated, we can move forward with the actual execution of the hypothesis test using the data in the subsequent stages of the Jupyter Notebook. This well-defined structure ensures that our analysis remains focused and interpretable, ultimately contributing to our goal of generating actionable insights to optimize revenue strategies for taxi cab drivers.
+
+# Jupyter Notebook Hypothesis Test
+
+## Part 2: Conduct EDA and Hypothesis Testing
+
+### Analyze and Construct Stage
+
+As we move into the "Analyze and Construct" stage of our project, we leverage descriptive statistics for Exploratory Data Analysis (EDA). Descriptive statistics serve as valuable tools to unravel insights hidden within the dataset. Let's explore how computing descriptive statistics enhances our understanding of the data in this stage of analysis.
+
+### Exploring Data with Descriptive Statistics
+
+**Descriptive statistics** provide a concise summary of key characteristics of the dataset. They include measures such as mean, median, standard deviation, minimum, maximum, and quartiles. In the context of our hypothesis test, computing descriptive statistics helps us in the following ways:
+
+1. **Central Tendency:** Calculating the mean and median of fare amounts based on different payment methods gives us a sense of the typical fare values. This helps us understand the average fare amounts associated with each payment type.
+
+2. **Variability:** Standard deviation reveals how much the fare amounts deviate from the mean. Higher standard deviation might indicate greater variability in fare amounts for a particular payment method.
+
+3. **Distribution:** Creating histograms or density plots of fare amounts for different payment methods allows us to visualize their distributions. This can uncover patterns or anomalies.
+
+4. **Comparison:** Comparing descriptive statistics between payment methods allows us to identify potential differences. For instance, comparing means could hint at whether one payment method tends to yield higher fare amounts.
+
+### Enhancing Analysis and Insights
+
+By employing descriptive statistics, we construct a solid foundation for our hypothesis test. These statistics offer a preliminary understanding of the dataset's characteristics, helping us recognize trends, disparities, and potential outliers. This knowledge guides our subsequent hypothesis testing by providing context and initial evidence for or against our research question.
+
+In summary, descriptive statistics serve as our lens into the data's nuances and patterns. They empower us to analyze the data more effectively, aiding in the construction of our hypothesis test and contributing to our goal of extracting meaningful insights to enhance revenue strategies for taxi cab drivers.
+
+### The analysis of payment types and their corresponding fare amounts yields the following findings:
+
+* Counts of Payment Types:
+
+Credit card: 15,265 rides
+Cash: 7,267 rides
+No charge: 121 rides
+Dispute: 46 rides
+Mean Fare Amounts by Payment Type:
+
+* Cash payments have an average fare amount of approximately $12.21.
+* Credit card payments show a higher average fare amount of around $13.43.
+* Disputed payments have a lower average fare amount of approximately $9.91.
+* Rides with no charge have an average fare amount of about $12.19.
+* In summary, the analysis suggests that rides paid for with credit cards tend to have a slightly higher average fare compared to those paid in cash. Disputed payments have the lowest average fare, and rides with no charge or those involving disputes exhibit comparatively lower fare amounts. These insights contribute to the understanding of how payment methods correlate with fare amounts in the context of taxi rides.
+
+### Hypothesis Test
+
+
+### Task 3. Hypothesis testing
+
+$H_0$: There is no difference in the average fare amount between customers who use credit cards and customers who use cash.
+
+$H_A$: There is a difference in the average fare amount between customers who use credit cards and customers who use cash.
+
+The hypothesis test comparing average fare amounts between credit and cash payments yields the following results:
+
+1. **Test Statistic:** -6.866800855655372
+2. **P-value:** 6.797387473030518e-12 (approximately 0.0000000000068)
+
+Based on these results:
+
+- The test statistic of -6.866800855655372 indicates how many standard deviations the sample mean of the difference between credit and cash payments' fare amounts is from the expected mean difference under the null hypothesis.
+
+- The p-value of 6.797387473030518e-12 is extremely small, almost equal to zero. This indicates strong evidence against the null hypothesis that there is no difference in average fare amounts between credit and cash payments considering and significance level of 0.05.
+
+Given the very low p-value, we have reason to reject the null hypothesis. This suggests that there is a statistically significant difference in average fare amounts between credit and cash payments. In other words, the evidence suggests that payment method does influence the fare amount, and the difference in average fare amounts is unlikely to have occurred by chance.
+
+The p-value is approx 0 so we reject the null hypothesis that there's no diference in fare amount between the payment types credit card and cash. In other words there's statistical evidence with a significance level of 0.05 that the mean of fare amount of credit card payments are diferente from the mean of cash payments.
+
+These results support the initial intuition that there might be a relationship between payment method and fare amounts, as indicated by the analysis and the previous findings.
+
+
