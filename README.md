@@ -75,9 +75,7 @@ For a more elaborate exploration and a deeper plunge into insights, kindly refer
 | MTA_tax                | $0.50 MTA tax that is automatically triggered based on the metered rate in use.              |
 | Improvement_surcharge  | $0.30 improvement surcharge assessed trips at the flag drop. The improvement surcharge began being levied in 2015. |
 | Tip_amount             | Tip amount – This field is automatically populated for credit card tips. Cash tips are not included. |
-| Tolls_amount          
-
- | Total amount of all tolls paid in trip.                                                       |
+| Tolls_amount           | Total amount of all tolls paid in trip.                                                       |
 | Total_amount           | The total amount charged to passengers. Does not include cash tips.                           |
 
 **Summary of Results of Exploratory Data Analysis (EDA)**
