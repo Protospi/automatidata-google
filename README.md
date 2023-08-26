@@ -1,6 +1,4 @@
-
 ## Automatidata Project - New York City Taxi TLC Exploratory Data Analysis (EDA) and Data Visualization
-
 
 <p align="center">
   <img src="cabs.jpeg" alt="New Yor City Cab">
@@ -14,21 +12,21 @@ In collaboration with the New York City Taxi and Limousine Commission (TLC), my 
 
 **Essential Steps and Deliverables:**
 
-2. **Inspecting and Organizing the TLC Dataset:** Armed with Python, I'm meticulously inspecting and structuring the TLC dataset, leaving no stone unturned to ensure impeccable cleanliness and impeccable structure.
+- **Inspecting and Organizing the TLC Dataset:** Armed with Python, I'm meticulously inspecting and structuring the TLC dataset, leaving no stone unturned to ensure impeccable cleanliness and impeccable structure.
 
-3. **Email Directive from Luana Rodriguez:** An email from Luana Rodriguez, the esteemed Senior Data Analyst, has underscored the precise expectations. It calls for a Python notebook that harmoniously melds data structuring, cleansing algorithms, tantalizing matplotlib/seaborn visualizations, and visually accessible Tableau visualizations.
+- **Email Directive from Luana Rodriguez:** An email from Luana Rodriguez, the esteemed Senior Data Analyst, has underscored the precise expectations. It calls for a Python notebook that harmoniously melds data structuring, cleansing algorithms, tantalizing matplotlib/seaborn visualizations, and visually accessible Tableau visualizations.
 
-4. **Email Message from Udo Bankole:** Udo Bankole, the Director of Data Analysis, has reinforced the significance of an executive summary nestled alongside the Tableau visualizations and Python notebook.
+- **Email Message from Udo Bankole:** Udo Bankole, the Director of Data Analysis, has reinforced the significance of an executive summary nestled alongside the Tableau visualizations and Python notebook.
 
-5. **Python-Powered EDA:** Within the realm of Python, I'm orchestrating a comprehensive notebook that orchestrates the entire EDA symphony. This symphony comprises cleansing rituals, structured organizing, and a crescendo of visually compelling elements — including the star duets: box plots showcasing ride durations and time series masterpieces depicting temporal narratives.
+- **Python-Powered EDA:** Within the realm of Python, I'm orchestrating a comprehensive notebook that orchestrates the entire EDA symphony. This symphony comprises cleansing rituals, structured organizing, and a crescendo of visually compelling elements — including the star duets: box plots showcasing ride durations and time series masterpieces depicting temporal narratives.
 
-6. **Tableau Artistry:** In parallel, I'm curating Tableau visualizations that seamlessly harmonize with the grand EDA narrative. These visualizations are a melange of clarity, accessibility, and the ability to resonate with both data aficionados and those navigating the territory of visual impairment.
+- **Tableau Artistry:** In parallel, I'm curating Tableau visualizations that seamlessly harmonize with the grand EDA narrative. These visualizations are a melange of clarity, accessibility, and the ability to resonate with both data aficionados and those navigating the territory of visual impairment.
 
-7. **Executive Summary Crafting:** I'm meticulously distilling the crux of the analysis and findings into a refined and succinct executive summary, akin to a synopsis that captures the essence of a sprawling epic.
+- **Executive Summary Crafting:** I'm meticulously distilling the crux of the analysis and findings into a refined and succinct executive summary, akin to a synopsis that captures the essence of a sprawling epic.
 
-8. **Review and Sanctification:** Before the curtain call, I'm sharing my opus with Luana and granting Udo a backstage pass. Their insights and perspectives are invaluable before the final act unfolds.
+- **Review and Sanctification:** Before the curtain call, I'm sharing my opus with Luana and granting Udo a backstage pass. Their insights and perspectives are invaluable before the final act unfolds.
 
-9. **Epilogue: The Final Report:** Once the crescendo subsides, and after the analysis, visualizations, and executive summary have traversed the corridors of critique and obtained their laurels of approval, they'll convene into a grand finale — the final project report.
+- **Epilogue: The Final Report:** Once the crescendo subsides, and after the analysis, visualizations, and executive summary have traversed the corridors of critique and obtained their laurels of approval, they'll convene into a grand finale — the final project report.
 
 **Summation of Approach and Discovery:**
 
@@ -77,9 +75,10 @@ For a more elaborate exploration and a deeper plunge into insights, kindly refer
 | MTA_tax                | $0.50 MTA tax that is automatically triggered based on the metered rate in use.              |
 | Improvement_surcharge  | $0.30 improvement surcharge assessed trips at the flag drop. The improvement surcharge began being levied in 2015. |
 | Tip_amount             | Tip amount – This field is automatically populated for credit card tips. Cash tips are not included. |
-| Tolls_amount           | Total amount of all tolls paid in trip.                                                       |
-| Total_amount           | The total amount charged to passengers. Does not include cash tips.                           |
+| Tolls_amount          
 
+ | Total amount of all tolls paid in trip.                                                       |
+| Total_amount           | The total amount charged to passengers. Does not include cash tips.                           |
 
 **Summary of Results of Exploratory Data Analysis (EDA)**
 
@@ -109,40 +108,13 @@ For a more detailed analysis and further insights, refer to the Jupyter Notebook
 
 Link: https://public.tableau.com/app/profile/pedro.loes/viz/TLCTaxiData/DistancexAmount
 
-### Executive sumary
+### Executive Summary
 
 Link: https://docs.google.com/presentation/d/1eZXLSuGKj0HByk-KT5sLlWDJeO6tITurX0ctaTG53RU/edit?usp=sharing
 
 # Jupyter Notebook Hypothesis Test
 
 In this section of the larger project, we delve into a focused exploration using a Jupyter Notebook to conduct a hypothesis test. The main objective of this endeavor is to analyze the relationship between payment methods and fare amounts in the context of taxi services. The project follows a structured approach, encompassing data preparation, hypothesis testing, and insightful communication of findings.
-
-## Project Summary
-The overarching goal of the entire project is to showcase expertise in crafting and executing A/B tests to generate insights that can enhance revenue for taxi cab drivers. The project is structured within the framework of a Jupyter Notebook, providing an interactive and informative platform for analysis.
-
-### A Glimpse at the Previous Components
-In preceding segments, we established the foundation for this endeavor:
-
-1. **Project Goal:** The project centers around developing an app for the New York City Taxi and Limousine Commission (TLC) to enable riders to estimate taxi fares beforehand. This entails analyzing the relationship between fare amounts and payment methods.
-
-2. **Background:** The TLC has a history of overseeing and regulating various transportation services in New York City, adding a real-world context to the analysis.
-
-3. **Scenario:** We completed exploratory data analysis (EDA) to familiarize ourselves with the dataset, setting the stage for the subsequent hypothesis test.
-
-4. **Tasks Completed:** Exploratory data analysis was performed, and we agreed to proceed with hypothesis testing. This involves descriptive statistics computation and a hypothesis test using the TLC dataset.
-
-With this groundwork laid, we now delve into the heart of the project: employing a Jupyter Notebook to conduct hypothesis testing and extract meaningful insights.
-
-## Part 1: Imports and Data Loading
-We start by identifying and importing the necessary data packages and libraries essential for hypothesis testing. Additionally, we load the dataset, which forms the basis of our analysis.
-
-## Part 2: Conduct EDA and Hypothesis Testing
-Here, we leverage the power of descriptive statistics to gain deeper insights into the dataset. We elaborate on how these statistics aid in comprehending the data. Furthermore, we detail the formulation of our null and alternative hypotheses—critical aspects of hypothesis testing. The notebook will feature the execution of the hypothesis test itself, revealing the statistical results.
-
-## Part 3: Communicate Insights with Stakeholders
-The narrative continues by discussing the key business insights that emerged from our A/B test. We highlight any significant patterns or differences found in fare amounts based on payment types. Drawing from these insights, we put forth actionable business recommendations, offering strategies to optimize revenue generation for taxi cab drivers.
-
-Incorporating this Jupyter Notebook into the larger project enriches our analysis by providing a dynamic and interactive platform for both exploring the data and sharing the outcomes. This approach aligns seamlessly with the project's objective of utilizing hypothesis testing to enhance revenue strategies within the realm of taxi services.
 
 ## Part 1: Imports and Data Loading
 
@@ -166,19 +138,15 @@ By formulating these hypotheses at the outset, we establish a clear direction fo
 
 As we proceed with the analysis, we will gather evidence from the data to decide whether we have enough evidence to reject the null hypothesis in favor of the alternative hypothesis.
 
-With our research question defined and our hypotheses formulated, we can move forward with the actual execution of the hypothesis test using the data in the subsequent stages of the Jupyter Notebook. This well-defined structure ensures that our analysis remains focused and interpretable, ultimately contributing to our goal of generating actionable insights to optimize revenue strategies for taxi cab drivers.
-
-# Jupyter Notebook Hypothesis Test
-
 ## Part 2: Conduct EDA and Hypothesis Testing
 
 ### Analyze and Construct Stage
 
 As we move into the "Analyze and Construct" stage of our project, we leverage descriptive statistics for Exploratory Data Analysis (EDA). Descriptive statistics serve as valuable tools to unravel insights hidden within the dataset. Let's explore how computing descriptive statistics enhances our understanding of the data in this stage of analysis.
 
-### Exploring Data with Descriptive Statistics
+**Exploring Data with Descriptive Statistics**
 
-**Descriptive statistics** provide a concise summary of key characteristics of the dataset. They include measures such as mean, median, standard deviation, minimum, maximum, and quartiles. In the context of our hypothesis test, computing descriptive statistics helps us in the following ways:
+Descriptive statistics provide a concise summary of key characteristics of the dataset. They include measures such as mean, median, standard deviation, minimum, maximum, and quartiles. In the context of our hypothesis test, computing descriptive statistics helps us in the following ways:
 
 1. **Central Tendency:** Calculating the mean and median of fare amounts based on different payment methods gives us a sense of the typical fare values. This helps us understand the average fare amounts associated with each payment type.
 
@@ -188,30 +156,9 @@ As we move into the "Analyze and Construct" stage of our project, we leverage de
 
 4. **Comparison:** Comparing descriptive statistics between payment methods allows us to identify potential differences. For instance, comparing means could hint at whether one payment method tends to yield higher fare amounts.
 
-### Enhancing Analysis and Insights
-
 By employing descriptive statistics, we construct a solid foundation for our hypothesis test. These statistics offer a preliminary understanding of the dataset's characteristics, helping us recognize trends, disparities, and potential outliers. This knowledge guides our subsequent hypothesis testing by providing context and initial evidence for or against our research question.
 
-In summary, descriptive statistics serve as our lens into the data's nuances and patterns. They empower us to analyze the data more effectively, aiding in the construction of our hypothesis test and contributing to our goal of extracting meaningful insights to enhance revenue strategies for taxi cab drivers.
-
-### The analysis of payment types and their corresponding fare amounts yields the following findings:
-
-* Counts of Payment Types:
-
-Credit card: 15,265 rides
-Cash: 7,267 rides
-No charge: 121 rides
-Dispute: 46 rides
-Mean Fare Amounts by Payment Type:
-
-* Cash payments have an average fare amount of approximately $12.21.
-* Credit card payments show a higher average fare amount of around $13.43.
-* Disputed payments have a lower average fare amount of approximately $9.91.
-* Rides with no charge have an average fare amount of about $12.19.
-* In summary, the analysis suggests that rides paid for with credit cards tend to have a slightly higher average fare compared to those paid in cash. Disputed payments have the lowest average fare, and rides with no charge or those involving disputes exhibit comparatively lower fare amounts. These insights contribute to the understanding of how payment methods correlate with fare amounts in the context of taxi rides.
-
 ### Hypothesis Test
-
 
 ### Task 3. Hypothesis testing
 
@@ -222,18 +169,18 @@ $H_A$: There is a difference in the average fare amount between customers who us
 The hypothesis test comparing average fare amounts between credit and cash payments yields the following results:
 
 1. **Test Statistic:** -6.866800855655372
-2. **P-value:** 6.797387473030518e-12 (approximately 0.0000000000068)
+2. **P-value:** 6
+
+.797387473030518e-12 (approximately 0.0000000000068)
 
 Based on these results:
 
 - The test statistic of -6.866800855655372 indicates how many standard deviations the sample mean of the difference between credit and cash payments' fare amounts is from the expected mean difference under the null hypothesis.
 
-- The p-value of 6.797387473030518e-12 is extremely small, almost equal to zero. This indicates strong evidence against the null hypothesis that there is no difference in average fare amounts between credit and cash payments considering and significance level of 0.05.
+- The p-value of 6.797387473030518e-12 is extremely small, almost equal to zero. This indicates strong evidence against the null hypothesis that there is no difference in average fare amounts between credit and cash payments considering a significance level of 0.05.
 
 Given the very low p-value, we have reason to reject the null hypothesis. This suggests that there is a statistically significant difference in average fare amounts between credit and cash payments. In other words, the evidence suggests that payment method does influence the fare amount, and the difference in average fare amounts is unlikely to have occurred by chance.
 
-The p-value is approx 0 so we reject the null hypothesis that there's no diference in fare amount between the payment types credit card and cash. In other words there's statistical evidence with a significance level of 0.05 that the mean of fare amount of credit card payments are diferente from the mean of cash payments.
+The p-value is approx 0, so we reject the null hypothesis that there's no difference in fare amount between the payment types credit card and cash. In other words, there's statistical evidence with a significance level of 0.05 that the mean of fare amount of credit card payments is different from the mean of cash payments.
 
 These results support the initial intuition that there might be a relationship between payment method and fare amounts, as indicated by the analysis and the previous findings.
-
-
