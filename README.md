@@ -1,5 +1,5 @@
 
-**Automatidata Project - New York City Taxi TLC Exploratory Data Analysis (EDA) and Data Visualization**
+## Automatidata Project - New York City Taxi TLC Exploratory Data Analysis (EDA) and Data Visualization
 
 *Context: Fictional Data Scientist at Automatidata, Google Course Project*
 
