@@ -1,6 +1,8 @@
 
 ## Automatidata Project - New York City Taxi TLC Exploratory Data Analysis (EDA) and Data Visualization
 
+![](cabs.jpeg)
+
 *Context: Fictional Data Scientist at Automatidata, Google Course Project*
 
 I'm currently immersed in a fascinating project as a fictional Data Scientist at Automatidata, working on the preliminary phase of an exploratory data analysis (EDA) and data visualization initiative. Let's delve into the key aspects:
