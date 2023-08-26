@@ -1,7 +1,10 @@
 
 ## Automatidata Project - New York City Taxi TLC Exploratory Data Analysis (EDA) and Data Visualization
 
-![](cabs.jpeg)
+
+<p align="center">
+  <img src="cabs.jpeg" alt="New Yor City Cab">
+</p>
 
 *Context: Fictional Data Scientist at Automatidata, Google Course Project*
 
